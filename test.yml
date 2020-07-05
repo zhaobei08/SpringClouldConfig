@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: testConfigServer  #取个名字
+
+  cloud:
+    config:
+      server:
+        git:
+          username: zhaobei08
+          password: 431866058zbb
+          uri:  https://github.com/zhaobei08/SpringClouldConfig.git
+
+
+
+
