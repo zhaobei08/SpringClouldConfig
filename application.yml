@@ -7,5 +7,11 @@ spring:
   cloud:
     config:
       server:
-        git: #仓库地址
-          uri: https://github.com/zhaobei08/SpringClouldConfig.git
+        git:
+          username: zhaobei08
+          password: 431866058zbb
+          uri:  https://github.com/zhaobei08/SpringClouldConfig.git
+
+
+
+
